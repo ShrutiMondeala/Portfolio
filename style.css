@@ -1,0 +1,272 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+* {
+ box-sizing: border-box;
+ text-decoration: none;
+}
+
+.header {
+    background-color:  #fbeec1;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 10px;
+    opacity: 0.8;
+    display: flex;
+    align-items: center;
+}
+.headerlogo {
+    flex: 1;
+    font-size: 80px;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.header div{
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.selected {
+    font-weight: bold;
+    border-bottom: 3px solid black;
+}
+
+.main {
+
+    width: 100%;
+    background-color: #fbeec1;
+    padding-top: 166px;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-bottom: 40px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.mainheading {
+    font-weight: 500;
+    font-size: 40px;
+    color: rgba(0, 0, 0, 0.774);
+}
+
+.maincontent {
+    font-size: 19px;
+    padding-top: 20px;
+    max-width: 520px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.hand {
+    display: inline-block;
+    animation: wiggle 0.4s infinite;
+}
+
+button {
+    margin-top: 5px;
+    height: 48px;
+    width: 150px;
+    padding: 5px 5px;
+    font-weight: 700;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 2px solid rgba(0, 0, 255, 0.24);
+    background: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    outline: 0;
+    
+}
+
+.btn {
+    width: 48px;
+    
+}
+
+.skill{
+    
+    padding-top: 50px ;
+    padding-bottom: 50px;
+
+}
+.skillmain{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.skillcontent {
+    font-family: 'Raleway', sans-serif;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    max-width: 600px;
+    margin: auto;
+}
+
+.skillcontainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: auto;
+    max-width: 900px;
+}
+
+.progress {
+    height: 10px;
+    width: 300px;
+    background-color: gray;
+    border-radius: 2px;
+    
+}
+
+.progressbar1{
+    width: 60%;
+    background-color: gold;
+    height: 10px;
+    border-radius: 3px;
+}
+
+.progressbar2{
+    width: 80%;
+    background-color: gold;
+    height: 10px;
+    border-radius: 3px;
+}
+
+.progressbar3{
+    width: 70%;
+    background-color: gold;
+    height: 10px;
+    border-radius: 3px;
+}
+
+.progressbar4{
+    width: 70%;
+    background-color: gold;
+    height: 10px;
+    border-radius: 3px;
+}
+
+.progressbar{
+    width: 70%;
+    background-color: gold;
+    height: 10px;
+    border-radius: 3px;
+}
+
+.progresscontent {
+    padding: 20px;
+}
+
+.liveactivity {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    max-width: 600px;
+    margin: auto;
+    justify-content: space-between;
+    text-align: center;
+    
+}
+
+.miniactivity {
+    width: 200px;
+    border-top: 8px solid rgba(128, 0, 0, 0.726);
+    border-radius: 8px;
+    box-shadow: -2px 0px 13px -4px rgba(0,0,0,0.47);
+    -webkit-box-shadow: -2px 0px 13px -4px rgba(0,0,0,0.47);
+    -moz-box-shadow: -2px 0px 13px -4px rgba(0,0,0,0.47);
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Raleway';
+    color: gray;
+
+}
+
+.activitystats {
+    font-size: 24px;
+    font-weight: 700;
+    color: black;
+    
+}
+
+
+.footer {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: rgba(0, 0, 0, 0.733);
+}
+
+.projectflex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: top;
+    padding-top: 40px;
+
+}
+
+.projectcontent {
+    width: 400px;
+    margin: 20px;
+}
+
+.projectcontent img {
+    border-radius: 5px;
+}
+
+.projectcontent img {
+    height: 60%; width: 100%;
+}
+.innerproject {
+    display: flex;
+    align-items: center;
+    padding-bottom: 5px;
+}
+.titledis {
+    flex: 1;
+    font-weight: bold;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+.dis {
+    font-family: 'Baloo Chettan 2', cursive;
+    display: inline-block;
+    text-align: justify;
+    font-size: 14px;
+}
+.date {
+    font-family: 'Baloo Chettan 2', cursive;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.575);
+}
+
+.techstack {
+    display: flex;
+}
+
+.stack {
+    font-family: 'Baloo Chettan 2', cursive;
+    border-radius: 20px;
+    min-width: 90px;
+    text-align: center;
+    margin: 5px;
+    font-size: 12px;
+
+}
+@keyframes wiggle {
+    0% {transform: rotate(0deg);}
+    25% {transform: rotate(7deg);}
+    50% {transform: rotate(0deg);}
+    75% {transform: rotate(7deg);}
+    100% {transform: rotate(0deg);}
+}
